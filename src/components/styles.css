@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Serif:opsz@8..144 & display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://i.pinimg.com/originals/89/a1/4d/89a14d3b81546e2fe51cbf4d0d6b8b60.gif");
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:2rem;
+} 
+.card{
+    width: 100px;
+    background-color: rgb(230, 161, 11);
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(250, 245, 245, 0.932);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Serif', serif;
+    font-size:xx-large;
+    text-align:center;
+    color: gold;
+
+}
